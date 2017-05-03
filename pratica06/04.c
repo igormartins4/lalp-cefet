@@ -14,14 +14,17 @@
 #include <locale.h>
 
 int main() {
-    int a[10], b[10], i, j;
+    int a[20], b[10], i, j;
 
     setlocale(LC_ALL, "Portuguese");
     for(i=0; i<10; i++) {
         printf("\nDigite o %dº número inteiro do vetor: \n", i+1);
         scanf("%d", &a[i]);
         if(i % 2 == 0) {
-            b[i] = a[i+1];
+            b[i+1] = a[i];
+        }
+        else {
+            b[i-1] = a[i];
         }
     }
 

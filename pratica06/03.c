@@ -9,13 +9,14 @@
 *********************************************************
 */
 
+//      PROGRAMA COM ERROS!!
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 
 int main() {
-    int v[9], p[9], divisor=0, i, j, pos;
-    int primo = 0;;
+    int v[9], divisor=0, i, j, pos, primo;
 
     setlocale(LC_ALL, "Portuguese");
     for(i=0; i<9; i++) {
@@ -26,13 +27,10 @@ int main() {
                 divisor++;
             }
        }
-       if(divisor == 2) {
-            primo=1;
+       if(divisor <= 2) {
+            printf("\n\nPrimo: %d, vetor[%d]\n", v[i], i);
+            divisor = 0;
         }
-        printf("\n\nPrimo: %d, v[%d]\n", v[i], i);
-
     }
-
-
     return 0;
 }
