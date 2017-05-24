@@ -1,0 +1,6 @@
+jogador 1 escolhe seu símbolo
+símbolos dos dois jogadore definidos
+imprimir tabuleiro
+pegar jogada por coordenadas
+jogar no tabuleiro
+imprimir tabuleiro
