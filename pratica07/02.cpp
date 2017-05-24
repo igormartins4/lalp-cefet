@@ -1,3 +1,14 @@
+/*
+*********************************************************
+*                                                       *
+*   Autor: Igor Martins                                 *
+*   Data: Abril de 2017                                 *
+*   https://github.com/igormartins4                     *
+*   Laboratório de Algoritmos e Lógica de Programação   *
+*                                                       *
+*********************************************************
+*/
+
 #include <iostream>
 #include <locale.h>
 #define linha 5

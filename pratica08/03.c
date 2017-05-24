@@ -9,36 +9,36 @@
 *********************************************************
 */
 
-#include <iostream>
+#include <stdio.h>
 #include <locale.h>
-#define linha 4
-#define coluna 4
-
-using namespace std;
 
 int main() {
-    int a[linha][coluna], soma=0;
+    char p1[50], p2[50], p3[100];
+    int i=0, j=0, l=0;
 
     setlocale(LC_ALL, "Portuguese");
-    for(int i=0; i<linha; i++) {
-        cout << "\nDigite os valores da matriz" << endl;
-        for(int j=0; j<coluna; j++) {
-            cin >> a[i][j];
+    printf("\nDigite uma palavra: \n");
+    gets(p1);
+    printf("\nDigite outra palavra: \n");
+    gets(p2);
+    while(p1[i] != '\0' || p2[j] != '\0') {
+
+        if(p1[i] != '\0') {
+            p3[l] = p1[i];
+            i++;
+            l++;
         }
-        soma += a[i][i];
-    }
-    cout << endl;
-    for(int i=0; i<linha; i++) {
-        for(int j=0; j<coluna; j++) {
-            cout << a[i][j] << ends;
+        if(p2[j] != '\0') {
+            p3[l] = p2[j];
+            j++;
+            l++;
         }
-        cout << endl;
     }
 
-    cout << endl;
+    p3[l] ='\0';
 
-    cout << "Soma = " << soma << endl;
+    printf("\nP1: %s \n", p1);
+    printf("\nP2: %s \n", p2);
+    printf("\nP3: %s \n", p3);
 
-
-    return 0;
 }
