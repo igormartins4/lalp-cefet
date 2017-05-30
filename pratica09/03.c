@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#define num 2
+#define num 50
 
 struct alunos {
     char nome[50];
@@ -30,7 +30,7 @@ int main() {
     for(i=0; i<num; i++) {
         printf("\nDigite o nome do %dº aluno: \n", i+1);
         fflush(stdin);
-        __fpurge(stdin); //fflush do Linux
+        __fpurge(stdin); //fflush do Linux, retirar caso for testar no Windows
         gets(aluno[i].nome);
         printf("\nDigite as quatro notas: \n");
         scanf("%f", &aluno[i].nota1);
