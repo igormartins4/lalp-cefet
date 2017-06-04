@@ -2,9 +2,9 @@
 *********************************************************
 *                                                       *
 *   Autor: Igor Martins                                 *
-*   Data: Março de 2017                                 *
+*   Data: Marï¿½o de 2017                                 *
 *   https://github.com/igormartins4                     *
-*   Laboratório de Algoritmos e Lógica de Programação   *
+*   Laboratï¿½rio de Algoritmos e Lï¿½gica de Programaï¿½ï¿½o   *
 *                                                       *
 *********************************************************
 */
