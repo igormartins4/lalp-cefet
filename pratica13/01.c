@@ -1,3 +1,14 @@
+/*
+*********************************************************
+*                                                       *
+*   Autor: Igor Martins                                 *
+*   Data: Junho de 2017                                 *
+*   https://github.com/igormartins4                     *
+*   Laboratório de Algoritmos e Lógica de Programação   *
+*                                                       *
+*********************************************************
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -19,7 +30,7 @@ int main() {
         system("color cf");
     }
     else {
-        printf("\nDigite, respectivamente, o nome e o n�mero da pessoa na mesma linha: \n");
+        printf("\nDigite, respectivamente, o nome e o número da pessoa na mesma linha: \n");
         printf("\n(* para sair): \n\n");
         do {
             scanf("%c", &nome);
@@ -27,7 +38,7 @@ int main() {
             //putchar("/n");
 
             if(ferror(arq)) {
-                printf("\nERRO na grava��o dos dados!\n");
+                printf("\nERRO na gravação dos dados!\n");
                 system("color cf");
             }
         }while(nome != '*');
