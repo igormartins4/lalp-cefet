@@ -1,3 +1,14 @@
+/*
+*********************************************************
+*                                                       *
+*   Autor: Igor Martins                                 *
+*   Data: Junho de 2017                                 *
+*   https://github.com/igormartins4                     *
+*   Laboratório de Algoritmos e Lógica de Programação   *
+*                                                       *
+*********************************************************
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -40,7 +51,7 @@ int main() {
     }
 
     else {
-        printf("\nBackup conclu�do com sucesso!\n");
+        printf("\nBackup concluído com sucesso!\n");
     }
 
     return 0;
