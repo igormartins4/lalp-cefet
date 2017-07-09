@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1499014419 source:c:\users\ivo\desktop\meus projetos\gitbash\lalp-cefet\folha de pagamento\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
